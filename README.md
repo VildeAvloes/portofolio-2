@@ -26,7 +26,7 @@ The portfolio serves as a central hub for presenting my work and demonstrating t
 
 ## :rocket: Live Version
 
-[Portfolio Website](https://example.com)
+[Portfolio Website](https://VildeAvloes.github.io/portfolio-2)
 
 <br><br>
 
