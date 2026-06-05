@@ -11,25 +11,13 @@ function ProjectCard({ project }) {
         <h3>{project.title}</h3>
         <p>{project.description}</p>
         <div className="links">
-          <a
-            href={project.github}
-            target="_blank"
-            rel="noreferrer"
-            className="button button-primary"
-          >
+          <a href={project.github} className="button button-primary">
             GitHub
           </a>
 
-          {project.live && (
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noreferrer"
-              className="button button-secondary"
-            >
-              Live Site
-            </a>
-          )}
+          <a href={project.live} className="button button-secondary">
+            Live Site
+          </a>
         </div>
       </div>
     </article>

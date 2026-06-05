@@ -44,12 +44,14 @@ a {
     margin: 0 0 2rem;
 
     h1 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       color: $primary;
       font-size: clamp(2.5rem, 8vw, 5rem);
     }
 
     h2 {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       color: $primary;
       font-size: clamp(2rem, 5vw, 3rem);
@@ -84,6 +86,7 @@ a {
   border-radius: 999px;
   font-weight: 600;
   text-decoration: none;
+  letter-spacing: 0.035em;
   transition: transform 0.2s ease, opacity 0.2s ease;
 
   &:hover {
@@ -107,7 +110,6 @@ a {
 
   p {
     margin: 0;
-    text-transform: uppercase;
     color: $secondary;
     font-size: 0.9rem;
   }

@@ -13,8 +13,6 @@ function Contact() {
       <div className="links">
         <a
           href="https://github.com/VildeAvloes"
-          target="_blank"
-          rel="noreferrer"
           className="button button-primary"
         >
           GitHub
@@ -22,8 +20,6 @@ function Contact() {
 
         <a
           href="https://www.linkedin.com/in/vildeavloes/"
-          target="_blank"
-          rel="noreferrer"
           className="button button-secondary"
         >
           LinkedIn

@@ -10,8 +10,11 @@ function About() {
         </div>
         <img src={profileImage} alt="Vilde Avløs" className="image" />
         <p className="text">
-          I am a frontend development student with a focus on building
-          responsive, accessible and user-friendly web applications.
+          I am a frontend development student and junior developer based in
+          Norway. I enjoy solving problems, learning new technology and building
+          web applications that are both functional and enjoyable to use. My
+          goal is to create digital experiences that are accessible, intuitive
+          and thoughtfully designed.
         </p>
 
         <a href="#contact" className="button button-secondary">
