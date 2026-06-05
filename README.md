@@ -102,8 +102,7 @@ npm run format
 - React
 - JavaScript
 - Sass
-- CSS Grid
-- Netlify
+- GitHub Pages
 
 <br><br>
 
