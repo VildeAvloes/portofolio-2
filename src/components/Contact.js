@@ -26,7 +26,7 @@ function Contact() {
         </a>
 
         <a
-          href="mailto:your-email@example.com"
+          href="mailto:vildeavlos@gmail.com"
           className="button button-secondary"
         >
           Email
