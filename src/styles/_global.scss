@@ -11,7 +11,7 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: $body-font-family;
   background: $background;
   color: $primary;
 }
@@ -38,20 +38,22 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
+  min-height: 80vh;
+  scroll-margin-top: 5rem;
 
   .heading {
     max-width: 650px;
     margin: 0 0 2rem;
 
     h1 {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: $headings-font-family;
       margin: 0;
       color: $primary;
       font-size: clamp(2.5rem, 8vw, 5rem);
     }
 
     h2 {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: $headings-font-family;
       margin: 0;
       color: $primary;
       font-size: clamp(2rem, 5vw, 3rem);
@@ -112,7 +114,6 @@ a {
 
   p {
     margin: 0;
-    color: $secondary;
     font-size: 0.9rem;
   }
 }

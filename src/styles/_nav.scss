@@ -5,6 +5,8 @@
   justify-content: center;
   padding: 2rem 1.5rem;
   background: $background;
+  position: sticky;
+  top: 0;
 }
 
 .nav-list {
@@ -17,7 +19,7 @@
   list-style: none;
 
   a {
-    color: $secondary;
+    color: $primary;
     font-size: 0.9rem;
     font-weight: 600;
     text-transform: uppercase;

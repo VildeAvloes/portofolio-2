@@ -7,7 +7,7 @@ function Contact() {
       </div>
       <p className="text">
         I'm always happy to connect, discuss opportunities or talk about
-        frontend development.
+        frontend development with fellow code enthusiasts.
       </p>
 
       <div className="links">
