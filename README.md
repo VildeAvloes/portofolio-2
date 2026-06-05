@@ -97,6 +97,18 @@ npm run format
 
 <br><br>
 
+## Deployment
+
+This project is deployed using GitHub Pages.
+
+To deploy the latest build, run:
+
+```bash
+npm run deploy
+```
+
+<br><br>
+
 ## :wrench: Technologies Used
 
 - React

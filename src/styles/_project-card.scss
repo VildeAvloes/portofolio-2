@@ -5,12 +5,17 @@
   background: $light;
   border-radius: 20px;
   overflow: hidden;
-  box-shadow: 0 8px 24px rgba(6, 36, 98, 0.08), 0 2px 8px rgba(6, 36, 98, 0.04);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow:
+    0 8px 24px rgba(6, 36, 98, 0.08),
+    0 2px 8px rgba(6, 36, 98, 0.04);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
 
   &:hover {
     transform: translateY(-4px);
-    box-shadow: 0 14px 34px rgba(6, 36, 98, 0.12),
+    box-shadow:
+      0 14px 34px rgba(6, 36, 98, 0.12),
       0 4px 12px rgba(6, 36, 98, 0.06);
   }
 
